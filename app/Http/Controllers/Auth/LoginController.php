@@ -36,6 +36,7 @@ class LoginController extends Controller
     {
        exit('11111111111');
         exit('222222222');
+        exit('333333');
         $this->middleware('guest')->except('logout');
     }
 }
