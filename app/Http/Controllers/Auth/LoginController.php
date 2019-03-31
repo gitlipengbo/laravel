@@ -40,6 +40,8 @@ class LoginController extends Controller
         exit('4444444444');
         exit('55555555');
         exit('666666');
+        exit('77777777');
+        exit('888888888');
         $this->middleware('guest')->except('logout');
     }
 }
